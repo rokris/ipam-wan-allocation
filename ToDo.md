@@ -1,5 +1,7 @@
 1. **Opprett Docker Secrets:** Bruk Docker CLI til å opprette Docker Secrets for TLS-sertifikatet og nøkkelen. Du kan gjøre dette ved å kjøre følgende kommandoer:
 
+
+```bash
 $ echo "innholdet_av_tls_cert.pem" | docker secret create tls_cert -
 $ echo "innholdet_av_tls_key.pem" | docker secret create tls_key -
 
