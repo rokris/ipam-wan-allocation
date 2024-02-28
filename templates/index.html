@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Configuration</title>
+</head>
+<body>
+    <h1>Network Configuration</h1>
+    <form method="POST">
+        <label for="username">Brukernavn:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Passord:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="virk_id">VirksomhetsID:</label><br>
+        <input type="number" id="virk_id" name="virk_id"><br>
+        <label for="storename">Butikknavn:</label><br>
+        <input type="text" id="storename" name="storename"><br>
+        <!-- <label for="vlan">VLAN:</label><br> -->
+        <!-- <input type="number" id="vlan" name="vlan"><br><br> -->
+        <input type="submit" value="Submit">
+    </form>
+    <p>{{ result }}</p>
+</body>
+</html>
